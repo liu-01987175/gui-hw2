@@ -1,0 +1,131 @@
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+body {
+	background-color: white;
+	background-image: url("ptrbackground.jpg");
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Wrapper settings: controls layout width, centering, and background */
+#wrapper {
+    min-width: 600px;
+	max-width: 1300px;
+	height: 500px;
+    margin: auto;
+    background-color: white;
+}
+
+/* Navigation bar styling: sets its background, width, and height */
+nav {
+    float: left;
+    background-color: rgba(106, 200, 231, 0.784);
+	width: 200px;
+	height: 445px; /* Static height, change to auto for dynamic height */
+	margin: auto;
+}
+
+/* Navigation bar items alignment and styling */
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 80%;
+	margin: auto;
+}
+
+/* Navigation links styling */
+nav ul {
+	font-size: 1.3em;
+	list-style-type: none;
+	font-weight: 700;
+	text-align: left;
+	padding-left: 15px;
+}
+
+/* Default link styling in the navigation */
+nav a:link {
+    display: block;
+    text-decoration: none;
+    color: rgb(2, 5, 29);
+    font-weight: 700;
+}
+
+/* Visited link color in navigation */
+nav a:visited {
+	color: black;
+}
+
+/* Hover effect for navigation links */
+nav a:hover {
+	color: #FFFFFF;
+}
+
+/* Main content area styling */
+#content {
+	background-color: white;
+	padding-left: 230px; /* Space for the nav bar */
+	padding-top: 10px;
+}
+
+/* Special styling for resort name in content */
+#content .resort {
+	color: teal;
+	font-weight: 600;
+}
+
+/* Image styling within content */
+#content img {
+	float: left;
+	padding-right: 30px;
+}
+
+/* Bullet points styling in the content */
+#content ul {
+	list-style-image: url("marker.gif");
+	padding-left: 15px;
+}
+
+/* Title styling for the main heading */
+h1 {
+	margin-bottom: 0;
+	padding: 10px;
+	background-image: url("sunset.jpg");
+	background-color: #08012d;
+	background-repeat: no-repeat;
+	background-position: right top;
+	text-align: left;
+	color: white;
+}
+
+/* Subtitle styling */
+h2 {
+	color: #3399CC;
+}
+
+/* General font settings for titles */
+h1, h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+/* Contact info styling */
+#contact {
+	font-size: 90%;
+}
+
+/* Definition term color styling */
+dt {
+	color: #000033;
+}
+
+/* Footer styling */
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: italic;
+	text-align: left;
+	padding-left: 230px; /* Space for the nav bar */
+	font-size: 85%; /* Slightly smaller font size */
+}
